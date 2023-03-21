@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="###">
+        <fieldset>
+            <label>Produto:</label>
+            <input type="produto">
+            <br>
+            <label>Data de cadastro:</label>
+            <input type="date">
+            <br>
+            <label>Categoria:</label>
+            <select name="categoria">
+                <option value="L">Livro</option>
+                <option value="C">Caderno</option>
+            </select>
+            <br>
+            <label>Peso(kg)</label>
+            <input type="number">
+            <br>
+            <label>Situação:</label>
+            <input type="radio" name="rnovo" id="itpnovo" value="N">
+            <label for="itpnovo">Novo</label>
+        
+            <input type="radio" name="rusado" id="itpusado" value="U">
+            <label for="itusado">Usado</label>
+            <br>
+            <label for="ivoce">Descrição:</label>
+            <br>
+            <textarea name="txtvoce" id="idescricao" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar">
+            <br>
+            <label>Avaliação:</label>
+            <input type="range" id="iavaliacao" min="0" max="10">
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            </fieldset>
+    </form>
+</body>
+</html>

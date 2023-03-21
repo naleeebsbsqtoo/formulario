@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="##">
+    <fieldset>
+        <label>Nome</label>
+        <br>
+        <input type="text">
+        <br>
+        <label>Data de nascimento</label>
+        <br>
+        <input type=date>
+        <br>
+        <label>E-mail</label>
+        <br>
+        <input type="email">
+        <br>
+        <label>Confirme e-mail</label>
+        <br>
+        <input type=email>
+        <br>
+
+        <label for="isexo">Sexo:</label>
+        <select name="ssexo" id="isexo">
+            <option value="M">Masculino</option>
+            <option value="F" selected>Feminino</option>
+            <option value="A">Agenero</option>
+        </select>
+        <br>
+        <label>Tipo:</label>
+        <input type="radio" name="rtipo" id="itpusurio" value="U">
+        <label for="itpusurio">Usuário</label>
+        
+        <input type="radio" name="rtipo" id="itpusurio" value="A">
+        <label for="itpusurio">Admin</label>
+        <br>
+
+        <label for="ivoce">Fale sobre você</label>
+        <br>
+        <textarea name="txtvoce" id="ivoce" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+
+    </fieldset>
+    </form>
+</body>
+</html>
